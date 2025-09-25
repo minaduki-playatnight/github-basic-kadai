@@ -1,0 +1,30 @@
+PS D:\git\htmlcss> cd D:\git\samural-terakoya
+PS D:\git\samural-terakoya> mkdir git_challenge
+
+
+    ディレクトリ: D:\git\samural-terakoya
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/09/25     16:54                git_challenge
+
+
+PS D:\git\samural-terakoya> cd D:\git\samural-terakoya\git_challenge
+PS D:\git\samural-terakoya\git_challenge> git init
+Initialized empty Git repository in D:/git/samural-terakoya/git_challenge/.git/
+PS D:\git\samural-terakoya\git_challenge> echo "Hello,world!">>"hello_world.txt"
+PS D:\git\samural-terakoya\git_challenge> git add "hello_world.txt"
+PS D:\git\samural-terakoya\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) c64c013] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS D:\git\samural-terakoya\git_challenge> echo "こんにちは、世界！">>"hello_world.txt"
+PS D:\git\samural-terakoya\git_challenge> git add "hello_world.txt"                   
+PS D:\git\samural-terakoya\git_challenge> git commit -m "日本語訳を追加"              
+[main 884893e] 日本語訳を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS D:\git\samural-terakoya\git_challenge> git log --oneline
+884893e (HEAD -> main) 日本語訳を追加
+c64c013 hello_world.txtを追加
+PS D:\git\samural-terakoya\git_challenge> #step4ここまで
